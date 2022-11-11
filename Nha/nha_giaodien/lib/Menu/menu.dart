@@ -4,6 +4,7 @@ import 'package:nha_giaodien/chung/buttoncolum.dart';
 import 'package:nha_giaodien/chung/buttonicon.dart';
 import 'package:nha_giaodien/Chung/chonmanchoi.dart';
 import 'package:nha_giaodien/chung/elevatedbutton.dart';
+import 'package:nha_giaodien/chung/nhiemvu.dart';
 
 class Menu extends StatefulWidget {
   const Menu({super.key});
@@ -186,16 +187,118 @@ class _Menu extends State<Menu> with TickerProviderStateMixin {
                                               name: 'Xếp Hạng',
                                               mau: Colors.pink,
                                             ),
-                                             elevated(
+                                            elevated(
                                               path: 'image/napxu.png',
                                               name: 'Nạp xu',
                                               mau: Colors.amber,
-                                              
                                             ),
                                           ],
                                         )
                                       ],
                                     )),
+                                    SingleChildScrollView(
+                                      child: Container(
+                                          child: Column(
+                                        children: [
+                                          nhiemvu(
+                                            namennv: 'Chơi Cá Nhân 1 Trận',
+                                            checkicon: Colors.green,
+                                          ),
+                                          nhiemvu(
+                                            namennv: 'Chơi Đối Kháng 1 Trận',
+                                            checkicon: Colors.grey,
+                                          ),
+                                          nhiemvu(
+                                            namennv: 'Online đủ 60 Phút',
+                                            checkicon: Colors.green,
+                                          ),
+                                          nhiemvu(
+                                            namennv: 'Online đủ 120 Phút',
+                                            checkicon: Colors.grey,
+                                          ),
+                                          nhiemvu(
+                                            namennv: 'Online đủ 180 Phút',
+                                            checkicon: Colors.green,
+                                          ),
+                                          nhiemvu(
+                                            namennv: 'Tặng Xu Bạn Bè 1 Lần',
+                                            checkicon: Colors.green,
+                                          ),
+                                          nhiemvu(
+                                            namennv: 'Chơi Mini Game 1 Lần',
+                                            checkicon: Colors.grey,
+                                          )
+                                        ],
+                                      )),
+                                    ),
+                                    // SingleChildScrollView(
+                                    //   child: Container(
+                                    //     child: Column(
+                                    //       children: [
+                                    //         Column(
+                                    //           children: [
+                                    //             banbe(
+                                    //               name: 'Nguoichoi001',
+                                    //               bacrank: 'VangIV',
+                                    //               trangthai: 'Online',
+                                    //               trangthaicolor: Colors.yellow,
+                                    //               trangthaibuttoncolor:
+                                    //                   Colors.green,
+                                    //             )
+                                    //           ],
+                                    //         ),
+                                    //         Column(
+                                    //           children: [
+                                    //             banbe(
+                                    //                 name: 'Nguoichoi002',
+                                    //                 bacrank: 'VangV',
+                                    //                 trangthai: 'Offline',
+                                    //                 trangthaicolor:
+                                    //                     Colors.blueGrey,
+                                    //                 trangthaibuttoncolor:
+                                    //                     Colors.grey)
+                                    //           ],
+                                    //         ),
+                                    //         Column(
+                                    //           children: [
+                                    //             banbe(
+                                    //                 name: 'Nguoichoi003',
+                                    //                 bacrank: 'BacIII',
+                                    //                 trangthai: 'Offline',
+                                    //                 trangthaicolor:
+                                    //                     Colors.blueGrey,
+                                    //                 trangthaibuttoncolor:
+                                    //                     Colors.grey)
+                                    //           ],
+                                    //         ),
+                                    //         Column(
+                                    //           children: [
+                                    //             banbe(
+                                    //                 name: 'Nguoichoi004',
+                                    //                 bacrank: 'KimCuongV',
+                                    //                 trangthai: 'Online',
+                                    //                 trangthaicolor:
+                                    //                     Colors.yellow,
+                                    //                 trangthaibuttoncolor:
+                                    //                     Colors.green)
+                                    //           ],
+                                    //         ),
+                                    //         Column(
+                                    //           children: [
+                                    //             banbe(
+                                    //                 name: 'Nguoichoi005',
+                                    //                 bacrank: 'VangI',
+                                    //                 trangthai: 'Offline',
+                                    //                 trangthaicolor:
+                                    //                     Colors.blueGrey,
+                                    //                 trangthaibuttoncolor:
+                                    //                     Colors.grey)
+                                    //           ],
+                                    //         ),
+                                    //       ],
+                                    //     ),
+                                    //   ),
+                                    // )
                                   ])),
                             ])),
                       ],
@@ -247,7 +350,6 @@ class _Menu extends State<Menu> with TickerProviderStateMixin {
                     ),
                   ),
                 ],
-                
               )),
         )),
       ], // This trailing comma makes auto-formatting nicer for build methods.
