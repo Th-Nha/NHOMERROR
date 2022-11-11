@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nha_giaodien/Menu/menu.dart';
+import 'package:nha_giaodien/login/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,6 +27,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Menu();
+    return MyLogin();
   }
 }
