@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:nha_giaodien/Menu/menu.dart';
+import 'package:nha_giaodien/login/register.dart';
 
 class MyLogin extends StatefulWidget {
   const MyLogin({Key? key}) : super(key: key);
@@ -83,7 +85,15 @@ class _MyLoginState extends State<MyLogin> {
                                 backgroundColor: Colors.white70,
                                 child: IconButton(
                                     color: Colors.black,
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      setState(() {
+                                        Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                              builder: (context) => Menu(),
+                                            ));
+                                      });
+                                    },
                                     icon: Icon(
                                       Icons.arrow_forward,
                                     )),
@@ -98,7 +108,13 @@ class _MyLoginState extends State<MyLogin> {
                             children: [
                               TextButton(
                                 onPressed: () {
-                                  Navigator.pushNamed(context, 'register');
+                                  setState(() {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => MyRegister(),
+                                        ));
+                                  });
                                 },
                                 child: Text(
                                   'Sign Up',
