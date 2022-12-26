@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "530490484253",
+    "project_id": "game-quiz-79247",
+    "storage_bucket": "game-quiz-79247.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530490484253:android:5daf2525fd352d45fd08f4",
+        "android_client_info": {
+          "package_name": "com.example.giaodiengame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530490484253-suas8pgub1n6vkuhpg1oaebnvqgif645.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnBel_aWZ4uK98TXEgHbSM8fuUEYlbXRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530490484253-suas8pgub1n6vkuhpg1oaebnvqgif645.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530490484253:android:4f865a077cab2110fd08f4",
+        "android_client_info": {
+          "package_name": "com.example.test_upload_database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530490484253-suas8pgub1n6vkuhpg1oaebnvqgif645.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnBel_aWZ4uK98TXEgHbSM8fuUEYlbXRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530490484253-suas8pgub1n6vkuhpg1oaebnvqgif645.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
